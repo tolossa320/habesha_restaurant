@@ -1,0 +1,260 @@
+.container {
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8f5f0;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+/* Main Card */
+.card {
+  width: 100%;
+  max-width: 430px;
+  padding: 35px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.heading h1 {
+  color: #292929;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.heading p {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Form */
+.card form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formGroup label {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Inputs */
+.formGroup input {
+  width: 100%;
+  padding: 13px 14px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  outline: none;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+}
+
+.formGroup input:focus {
+  border-color: #a0522d;
+  box-shadow: 0 0 0 3px rgba(160, 82, 45, 0.1);
+}
+
+/* Password */
+.passwordWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.passwordWrapper input {
+  padding-right: 45px;
+}
+
+.passwordToggle {
+  position: absolute;
+  right: 12px;
+  background: transparent;
+  border: none;
+  color: #777;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.passwordToggle:hover {
+  color: #a0522d;
+}
+
+/* Forgot Password */
+.forgotPassword {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -8px;
+}
+
+.forgotPassword a {
+  color: #a0522d;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+/* Sign In */
+.signinBtn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 7px;
+  background: #a0522d;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.signinBtn:hover {
+  background: #783b20;
+}
+
+/* Privacy */
+.policy {
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.policy a {
+  color: #a0522d;
+  text-decoration: none;
+}
+
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #999;
+  font-size: 12px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+/* Register */
+.registerText {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.registerBtn {
+  display: block;
+  text-align: center;
+  padding: 13px;
+  border: 1px solid #a0522d;
+  border-radius: 7px;
+  color: #a0522d;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.registerBtn:hover {
+  background: #a0522d;
+  color: #fff;
+}
+.error {
+  display: block;
+  color: #dc2626;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 6px;
+  margin-left: 2px;
+  line-height: 1.4;
+}
+
+.error {
+  display: block;
+  color: #dc2626;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 6px;
+  margin-left: 2px;
+  line-height: 1.4;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Optional: Error animation */
+.error {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  .card {
+    padding: 25px 20px;
+  }
+
+  .heading h1 {
+    font-size: 24px;
+  }
+
+  .logo img {
+    width: 75px;
+    height: 75px;
+  }
+}

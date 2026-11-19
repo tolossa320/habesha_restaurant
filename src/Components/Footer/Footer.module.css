@@ -1,0 +1,70 @@
+.footer {
+  background: #0b1118;
+  color: #d2d5da;
+  padding: 32px max(6vw, 22px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+}
+.brand strong {
+  display: block;
+  font:
+    23px Georgia,
+    serif;
+}
+.brand small {
+  display: block;
+  color: var(--gold);
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  margin-top: 3px;
+}
+.footer p {
+  color: #9fa5ad;
+  font-size: 11px;
+}
+.socials {
+  display: flex;
+  gap: 14px;
+}
+.socials a {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #353b44;
+  border-radius: 50%;
+  color: #e6e7e9;
+  transition: all 0.2s;
+}
+.socials a:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+.copyright {
+  width: 100%;
+  padding-top: 17px;
+  border-top: 1px solid #2a3038;
+  color: #858b94;
+  font-size: 10px;
+  text-align: center;
+}

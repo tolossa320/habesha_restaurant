@@ -1,0 +1,119 @@
+.hero {
+  min-height: 690px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+  background: #151b21 url("../../assets/hero.jpeg") center 47% / cover no-repeat;
+  padding: 130px max(8vw, 24px) 90px;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(9, 14, 20, 0.94) 0%,
+      rgba(9, 14, 20, 0.83) 37%,
+      rgba(9, 14, 20, 0.25) 75%,
+      rgba(9, 14, 20, 0.2) 100%
+    ),
+    linear-gradient(0deg, rgba(9, 14, 20, 0.42), transparent 40%);
+}
+.content {
+  position: relative;
+  z-index: 1;
+  max-width: 620px;
+}
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+}
+.eyebrow span {
+  width: 28px;
+  height: 2px;
+  background: var(--gold);
+}
+.content h1 {
+  margin: 24px 0 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(43px, 6.3vw, 76px);
+  line-height: 1.03;
+  letter-spacing: -2.4px;
+  font-weight: 600;
+}
+.content h1 em {
+  color: var(--gold);
+  font-weight: 500;
+}
+.description {
+  max-width: 480px;
+  color: #d9dce0;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-top: 30px;
+}
+.note {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 56px;
+  font-size: 9px;
+  letter-spacing: 1.7px;
+  color: #d0d2d3;
+}
+.noteLine {
+  width: 35px;
+  height: 1px;
+  background: var(--gold);
+}
+.scrollCue {
+  position: absolute;
+  right: max(5vw, 22px);
+  bottom: 35px;
+  z-index: 1;
+  color: #e7e7e7;
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.scrollCue span {
+  color: var(--gold);
+  font-size: 18px;
+}
+@media (max-width: 600px) {
+  .hero {
+    min-height: 690px;
+    padding-top: 120px;
+    background-position: 58% center;
+  }
+  .overlay {
+    background:
+      linear-gradient(90deg, rgba(9, 14, 20, 0.9), rgba(9, 14, 20, 0.58)),
+      linear-gradient(0deg, rgba(9, 14, 20, 0.6), transparent);
+  }
+  .content h1 {
+    letter-spacing: -1.3px;
+  }
+  .note {
+    margin-top: 42px;
+    line-height: 1.8;
+  }
+  .scrollCue {
+    display: none;
+  }
+}
