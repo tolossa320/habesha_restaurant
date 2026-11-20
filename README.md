@@ -29,6 +29,11 @@ The application integrates Firebase for authentication and database management, 
 ![](https://github.com/tolossa320/habesha_restaurant/blob/main/Habesha%20Restaurant-images-4.jpg)
 ## SignIn desin
   ![](https://github.com/tolossa320/habesha_restaurant/blob/main/signin.png)
+  ## Cart
+  ![](https://github.com/tolossa320/habesha_restaurant/blob/main/picture.png)
+  ## Checkout desin
+  ![](https://github.com/tolossa320/habesha_restaurant/blob/main/checkout1.png)
+   ![](https://github.com/tolossa320/habesha_restaurant/blob/main/checkout2.png)
 ## 🛠️ Technologies Used
 Frontend
 - React.js
