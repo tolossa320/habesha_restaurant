@@ -24,7 +24,7 @@ The application integrates Firebase for authentication and database management, 
 - Order Management: Manage customer orders and payment-related operations.
   
 ## project design
-[Project LINK](https://habeshareataurant.netlify.app/)
+- [Project LINK](https://habeshareataurant.netlify.app/)
  ![](https://github.com/tolossa320/habesha_restaurant/blob/main/Habesha%20Restaurant-images-0.jpg)
  ![](https://github.com/tolossa320/habesha_restaurant/blob/main/Habesha%20Restaurant-images-1.jpg)
  ![](https://github.com/tolossa320/habesha_restaurant/blob/main/Habesha%20Restaurant-images-3.jpg)
