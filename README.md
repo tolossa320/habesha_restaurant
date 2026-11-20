@@ -4,10 +4,22 @@ Habesha Restaurant is a modern restaurant web application built with React.js. I
 The application integrates Firebase for authentication and database management, Stripe for payment processing, and Render for backend deployment.
 
 
-## React Compiler
+## 🎯 Project Objectives
+- Develop a real-world restaurant web application.
+- Practice React.js component-based development.
+- Implement user authentication and database integration.
+- Integrate a third-party payment gateway.
+- Develop RESTful APIs using Node.js and Express.js.
+- Gain practical experience deploying backend applications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
+## 🚀 Features
+- *Responsive Design*: User-friendly interface compatible with desktop, tablet, and mobile devices.
+- Food Menu: Browse different Ethiopian food categories, including vegetarian dishes, meat dishes, snacks, and beverages.
+- Shopping Cart: Add food items to the basket and manage orders.
+- User Authentication: Register and sign in using Firebase Authentication.
+- Database Management: Store and retrieve application data using Firebase Cloud Firestore.
+- Online Payment: Integrated Stripe payment gateway for processing payments.
+- Backend API: Node.js and Express.js backend for handling server-side operations.
+- Order Management: Manage customer orders and payment-related operations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
