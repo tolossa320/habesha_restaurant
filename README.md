@@ -22,6 +22,8 @@ The application integrates Firebase for authentication and database management, 
 - Online Payment: Integrated Stripe payment gateway for processing payments.
 - Backend API: Node.js and Express.js backend for handling server-side operations.
 - Order Management: Manage customer orders and payment-related operations.
+## project design
+[Home page](Habesha Restaurant-images-0.jpg)
 ## 🛠️ Technologies Used
 Frontend
 - React.js
