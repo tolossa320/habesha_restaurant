@@ -56,30 +56,30 @@ The application follows a frontend-backend architecture:
 4. Node.js & Express.js: Handle backend API requests and server-side operations.
 5. Stripe: Processes online payment transactions.
 6. Render: Hosts and deploys the backend server.
-## 📂 Project Structure
-habesha_restaurant/
-│
-├── restaurant/                  # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── Components/
-│   │   │   ├── Header/
-│   │   │   ├── Hero/
-│   │   │   ├── Menu/
-│   │   │   ├── About/
-│   │   │   ├── Contact/
-│   │   │   └── Footer/
-│   │   │
-│   │   ├── Pages/
-│   │   ├── Context/
-│   │   ├── Utility/
-│   │   └── App.jsx
-│   │
-│   └── package.json
-│
-├── functions/                   # Backend
-│   ├── index.js
-│   ├── package.json
-│   └── ...
-│
-└── README.md
+## 💳 Payment Integration
+Stripe is integrated to support online payments.
+The payment workflow:
+1. Customers select food items from the menu.
+2. Selected items are added to the shopping cart.
+3. Customers proceed to checkout.
+4. The frontend communicates with the backend API.
+5. The backend securely handles Stripe payment operations.
+6. Payment confirmation is processed and the order can be recorded.
+
+## 🔐 Authentication & Database
+- Firebase Authentication
+- User registration.
+- User login.
+- Authentication state management.
+Firebase Cloud Firestore
+- Store application data.
+- Retrieve and manage customer-related information.
+- Store order information.
+## 👨‍💻 Developer
+
+##Tolossa Kenaw
+Full-Stack Web Developer | Data Analysis & BI | Database Administration
+
+- GitHub: github.com/tolossa320
+- Portfolio: tolossaportifolio.netlify.app
+- LinkedIn: linkedin.com/in/tolossa-kenaw
