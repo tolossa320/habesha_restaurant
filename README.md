@@ -23,7 +23,7 @@ The application integrates Firebase for authentication and database management, 
 - Backend API: Node.js and Express.js backend for handling server-side operations.
 - Order Management: Manage customer orders and payment-related operations.
 ## project design
-[Home page](Habesha Restaurant-images-0.jpg)
+[Home page]([Habesha Restaurant-images-0.jpg](https://github.com/tolossa320/habesha_restaurant/blob/main/Habesha%20Restaurant-images-0.jpg))
 ## 🛠️ Technologies Used
 Frontend
 - React.js
