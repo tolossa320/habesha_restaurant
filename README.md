@@ -24,7 +24,7 @@ The application integrates Firebase for authentication and database management, 
 - Order Management: Manage customer orders and payment-related operations.
 ## project design
 [Home page] ![](https://github.com/tolossa320/habesha_restaurant/blob/main/Habesha%20Restaurant-images-0.jpg)
-
+- Menu page ![](https://github.com/tolossa320/habesha_restaurant/blob/main/Habesha%20Restaurant-images-1.jpg)
 ## 🛠️ Technologies Used
 Frontend
 - React.js
