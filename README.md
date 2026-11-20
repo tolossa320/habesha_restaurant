@@ -27,8 +27,7 @@ The application integrates Firebase for authentication and database management, 
  ![](https://github.com/tolossa320/habesha_restaurant/blob/main/Habesha%20Restaurant-images-1.jpg)
  ![](https://github.com/tolossa320/habesha_restaurant/blob/main/Habesha%20Restaurant-images-3.jpg)
 ![](https://github.com/tolossa320/habesha_restaurant/blob/main/Habesha%20Restaurant-images-4.jpg)
-
-- SignIn desin
+## SignIn desin
   ![](https://github.com/tolossa320/habesha_restaurant/blob/main/signin.png)
 ## 🛠️ Technologies Used
 Frontend
