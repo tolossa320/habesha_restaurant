@@ -77,7 +77,7 @@ Firebase Cloud Firestore
 - Store order information.
 ## 👨‍💻 Developer
 
-##Tolossa Kenaw
+## Tolossa Kenaw
 Full-Stack Web Developer | Data Analysis & BI | Database Administration
 
 - GitHub: github.com/tolossa320
